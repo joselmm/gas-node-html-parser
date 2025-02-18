@@ -1,0 +1,32 @@
+{
+  "name": "gas-node-html-parser",
+  "version": "1.0.0",
+  "description": "node-html-parser for Google Apps Script",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "node build.js",
+    "deploy": "clasp push",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joselmm/gas-node-html-parser.git"
+  },
+  "keywords": [
+    "google",
+    "gas"
+  ],
+  "author": "José Soracá Guevara (whatsapp: +57 3148854055)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joselmm/gas-node-html-parser/issues"
+  },
+  "homepage": "https://github.com/joselmm/gas-node-html-parser/#readme",
+  "dependencies": {
+    "node-html-parser": "^7.0.1"
+  },
+  "devDependencies": {
+    "esbuild": "^0.23.0",
+    "esbuild-gas-plugin": "^0.8.0"
+  }
+}
