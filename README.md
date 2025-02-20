@@ -61,7 +61,7 @@ var  h1Element = root.querySelector('h1');
 
 // Log the text content of the <h1> element
 
-Logger.log(h1Element.text);
+Logger.log(h1Element.innerText);
 
 }
 
